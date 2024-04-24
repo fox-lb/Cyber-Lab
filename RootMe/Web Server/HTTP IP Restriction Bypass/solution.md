@@ -13,10 +13,13 @@ Trong môi trường web, để có thể gửi thông tin về địa chỉ IP,
 Việc cần làm là thực hiện thêm header "X-Forwarded-For" với giá trị là một IP cục bộ, Ví dụ "X-Forwarded-For: 192.168.1.1".
 
 Sử dụng BurpSuite bắt yêu cầu xác thực:
+
 ![](media/image-1.png)
 Thêm header "X-Forwarded-For: 192.168.1.1":
+
 ![](media/image-2.png)
 Kết quả trả về:
+
 ![](media/image-3.png)
 Như vậy ta đã giả mạo thành một người dùng cục bộ và được hệ thống xác nhận.
 #### Flag: Ip_$po0Fing
