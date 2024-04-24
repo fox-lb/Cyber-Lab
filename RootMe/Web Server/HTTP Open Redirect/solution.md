@@ -29,5 +29,6 @@ Bây giờ đường dẫn của yêu cầu sẽ như sau:
 Và bummm, sau khi gửi yêu cầu và xem xét trong nội dung phản hồi thì ta nhận được thông báo hoàn thành bài lab kèm flag.
 
 ![](media/image-6.png)
+#### Flag: e6f8a530811d5a479812d7b82fc1a5c5
 #### Giải thích
 Chuyển hướng mở xảy ra khi các trang web cho phép chuyển hướng đến các trang khác, nhưng nếu không xác thực trang sẽ chuyển hướng đến xem liệu rằng có an toàn hay không thì việc kẻ tấn công buộc trang web chuyển hướng đến các trang độc hại và gây hại cho người dùng là hoàn toàn có thể. Ví dụ như ở trên, ta thay đổi giá trị của tham số "url" thành "http://attacker.net" thay vì "https://google.com" thì người dùng hoàn toàn có thể bị lừa và tiết lộ những thông tin nhạy cảm.
